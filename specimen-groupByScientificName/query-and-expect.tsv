@@ -1,0 +1,2 @@
+query_path	field_expected	value_expected
+specimen/groupByScientificName/?collectionType=testset_sng	totalSize	2
