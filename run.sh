@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SERVER="https://nba-api-test.k2.k8s.naturalis.nl/v2"
+SERVER="http://145.136.242.167/v2"
 
 declare -a DIRS=(specimen-query specimen-query-geo specimen-groupByScientificName)
 
