@@ -32,6 +32,7 @@ do
 		then
 			FAILED_TESTS=$((FAILED_TESTS + 1))
 			ERRORED=true
+			echo "Result: $RESULT, Expected: $EXPECT, query: $CMD"
 		else
 			PASSED_TESTS=$((PASSED_TESTS + 1))
 		fi
