@@ -12,6 +12,6 @@ do
 	echo
 	echo "Deleting data for collection type $COLTYPE from $DIR"			
 	   
-	curl -XPOST $SERVER/$INDEX/$DOCTYPE/_delete_by_query -d '{ "query": {"term": {"collectionType" : "'$COLTYPE'"}} }'
+	echo curl -XPOST $SERVER/$INDEX/$DOCTYPE/_delete_by_query -d '{ "query": {"wildcard": {"collectionType" : "testset-*"}} }'
 done
 
