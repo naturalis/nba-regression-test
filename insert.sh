@@ -16,3 +16,5 @@ do
 	
 done
 
+curl -XPOST http://localhost:9200/$INDEX/_refresh
+
