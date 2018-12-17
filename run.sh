@@ -7,8 +7,8 @@ declare -a DIRS=(specimen-query specimen-query-geo specimen-groupByScientificNam
 ERRORED=false
 
 for DIR in "${DIRS[@]}"
-do
-	
+do		
+
 	FILE="$DIR/query-and-expect.tsv"
 	
 	echo "Testing queries in $FILE on server $SERVER"
