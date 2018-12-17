@@ -16,3 +16,12 @@ containing the queries and expected results of these queries.
 Test data is provided in JSON format and must be compatible with the [NBA](https://github.com/naturalis/nba-regression-test/tree/master/specimen-query).
 
 ## Format of queries and expected query results
+The queries and expected values are stored in tsv (tab-separated value) files named `query-and-expect.tsv`, located in the subdirectories for specific queries. 
+
+[Example table:](https://github.com/naturalis/nba-regression-test/blob/master/specimen-groupByScientificName/query-and-expect.tsv)
+
+| query_path                                                 | field_expected | value_expected |
+|------------------------------------------------------------|----------------|----------------|
+| specimen/groupByScientificName/?collectionType=testset_sng | totalSize      | 2              |
+
+First field is the path of the query (without the server location), second one the field of the result set to be tested (nested fields are seperated by a `.`) and the third field is the value expected for this field given the query.
