@@ -39,6 +39,3 @@ The script `run.sh` runs the tests by running all queries specified in the `quer
 ### Cleaning up
 The script `delete.sh` removes the data. It does this by removing all records for which the field `collectionType` starts with `testset-`.
 
-### Removing the data.
-`
-
