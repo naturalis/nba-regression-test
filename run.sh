@@ -1,8 +1,8 @@
 #!/bin/bash
 
-SERVER="http://145.136.242.167:8080/v2"
+SERVER="https://api.nba-b.bii.dryrun.link/v2"
 
-declare -a DIRS=(specimen-query specimen-query-geo specimen-groupByScientificName)
+declare -a DIRS=(specimen-groupByScientificName) #(specimen-query specimen-query-geo specimen-groupByScientificName)
 
 ERRORED=false
 

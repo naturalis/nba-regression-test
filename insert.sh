@@ -11,7 +11,7 @@ do
 	FILE="$DIR/data.json"	
 	echo "Importing data from $FILE"
 	while read ENTRY; do
-		curl -w "\n" -XPOST $SERVER/$INDEX/$DOCTYPE -d "$ENTRY"
+		curl -w "\n" -H "Content-Type: application/json" -XPOST $SERVER/$INDEX/_doc -d "$ENTRY"
 	done < $FILE
 	
 done
