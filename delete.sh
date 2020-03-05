@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SERVER="http://localhost:9200"
-INDEX="specimen"
+INDEX="specimen-crs-20200226213005"
 DOCTYPE="Specimen"
 
 declare -a DIRS=(specimen-query specimen-query-geo specimen-groupByScientificName)

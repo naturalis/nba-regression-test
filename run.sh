@@ -2,7 +2,7 @@
 
 SERVER="https://api.nba-b.bii.dryrun.link/v2"
 
-declare -a DIRS=(specimen-groupByScientificName) #(specimen-query specimen-query-geo specimen-groupByScientificName)
+declare -a DIRS=(specimen-query-geo) #(specimen-query specimen-query-geo specimen-groupByScientificName)
 
 ERRORED=false
 
